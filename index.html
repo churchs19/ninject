@@ -1,85 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8'>
-
-  <title>ninject/ninject @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #121212;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #ededed; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #ededed; }
-    h3 { text-align: center; color: #ededed; }
-    a { color: #ededed; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+    <meta charset="utf-8" />
+    <title>Open source dependency injector for .NET - Ninject</title>
+    <link href="Content/css/bundle.css?20110510" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-  <a href="http://github.com/ninject/ninject"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/ninject/ninject/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/ninject/ninject/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+<body id="home">
+<div id="container">
+<div id="top">
+<h1><a href="index.html">Ninject</a></h1>
+<ul id="navigation">
+<li id="navigation-download"><a href="download.html">Download it</a></li>
+<li id="navigation-extensions"><a href="extensions.html">Extensions</a></li>
+<li id="navigation-contribute"><a href="contribute.html">Contribute</a></li>
+<li id="navigation-learn"><a href="learn.html">Visit the Dojo</a></li>
+<li id="navigation-community"><a href="community.html">Speak up</a></li>
+<li id="navigation-sponsors"><a href="sponsors.html">Sponsors</a></li>
+<li id="navigation-merchandise"><a href="merchandise.html">Merchandise</a></li>
+</ul>
+<div id="selected-marker"></div>
+</div>
+<div id="content">
+    <link rel="prefetch" href="Content/images/headers.png">
+<div class="prev arrow"></div>
+<div class="next arrow"></div>
+<div id="cards">
+    <div id="card-1" class="card">
+        <h2>Bend software to your will</h2>
+        Stop writing monolithic applications that make you feel like you have to move mountains to make the simplest of changes.
+        Ninject helps you use the technique of <em>dependency injection</em> to break your applications into <em>loosely-coupled,
+        highly-cohesive</em> components, and then glue them back together in a flexible manner.
     </div>
-
-    <h1><a href="http://github.com/ninject/ninject">ninject</a>
-      <span class="small">by <a href="http://github.com/ninject">ninject</a></span></h1>
-
-    <div class="description">
-      the ninja of .net dependency injectors
+    <div id="card-2" class="card">
+        <h2>Laugh in the face of change</h2>
+        Change is inevitable, so be prepared. Ninject allows you to <em>embrace change</em> in your software's design, so it will
+        be easier to adjust it to <em>match changing business needs</em> and expectations. Then, the next time someone asks for
+        a "small" change to your application, you can <em>laugh in triumph</em> rather than quivering in pain.
     </div>
-
-    <h2>Authors</h2>
-<p>danielmarbach (daniel.marbach@openplace.net)<br/>idavis (ian.f.davis@gmail.com)<br/>Ian Davis (ian@innovatian.com)<br/>Ivan Porto Carrero (ivan@flanders.co.nz)<br/>Joe Wasson (jwasson+git@gmail.com)<br/>Nate Kohari (nate@enkari.com)<br/>Pete Johanson (peter@peterjohanson.com)<br/>Remo Gloor (remo.gloor@bbv.ch)<br/>bartelink (rubenGithub@bartelink.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Ninject (info@ninject.org)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/ninject/ninject/zipball/master">zip</a> or
-      <a href="http://github.com/ninject/ninject/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/ninject/ninject</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/ninject/ninject">ninject/ninject</a>
+    <div id="card-3" class="card">
+        <h2>Use your sharpest tools</h2>
+        Once you break your application into components, you have to glue them back together. Rather than depending on a bunch of
+        XML to describe how the pieces fit together, Ninject uses a powerful <em>fluent interface</em>. This lets you get the
+        most out of the sharpest tools in your arsenal: your compiler and your IDE.
     </div>
-
-  </div>
-
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
+    <div id="card-4" class="card">
+        <h2>Write smarter software everywhere</h2>
+        Dependency injection isn't just for big enterprise applications; with the right framework, you can apply the practice to
+        improve software projects of <em>all sizes and types</em>. Ninject was designed to be ultra-lightweight and universal.
+        It also <em>runs practically anywhere</em>, including on Mono, the .NET Compact Framework, and Silverlight.
+    </div>
+    <div id="card-5" class="card">
+        <h2>Be fast, be agile, be precise</h2>
+        Ninject makes dependency injection <em>so easy</em> that it becomes hard not to follow good practices. Once you start
+        writing your applications with dependency injection in mind, your code will be easier to understand, easier to change,
+        and less error-prone. Simply put, Ninject makes your application <em>more ninja-like!</em>
+    </div>
+</div>
+<div id="examples" class="container_12">
+    <div class="grid_6">
+        <div class="code-sample">
+            <h3>Write your code so it's flexible...</h3>
+            <pre class="brush:csharp">
+                public class Samurai {
+                    public IWeapon Weapon { get; private set; }
+                    public Samurai(IWeapon weapon) {
+                        Weapon = weapon;
+                    }
+                }
+            </pre>
+        </div>
+    </div>
+    <div class="grid_6">
+        <div class="last code-sample">
+            <h3>...and let Ninject glue it together for you.</h3>
+            <pre class="brush:csharp">
+                public class WarriorModule : NinjectModule {
+                    public override void Load() {
+                        Bind&lt;IWeapon&gt;().To&lt;Sword&gt;();
+                    }
+                }
+            </pre>
+        </div>
+    </div>
+</div>
+<div id="bottom" class="container_12">
+    <div class="grid_4">
+        <div class="section">
+            <h3>Why is Ninject useful?</h3>
+            The vast majority of effort that is invested in software happens <em>after the initial release</em>. Because
+            Ninject makes your software much <em>easier to change</em>, a small up-front time investment will pay huge
+            dividends as time goes on.
+        </div>
+    </div>
+    <div class="grid_4">
+        <div class="section">
+            <h3>What makes Ninject different?</h3>
+            An obsessive focus on <em>simplicity</em> and <em>ease of use</em>. We've seen the value of dependency
+            injection, but were frustrated by the complexity of existing solutions. The goal of Ninject is make dependency
+            injection accessible to <em>all developers</em> and <em>all projects</em>.
+        </div>
+    </div>
+    <div class="grid_4">
+        <div class="last section">
+            <h3>How much does it cost?</h3>
+            Ninject is and will always be <em>free</em> for both personal and commercial projects. It's also <em>open source</em>,
+            so you can fork <a href="http://github.com/ninject/ninject" target="_blank">the code</a> and make any changes
+            you like. (We appreciate it if you share anything useful you come up with us, though!)
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="footer" class="container_12">
+<div class="section grid_12">
+<div class="enkari"><a href="http://enkari.com/" target="_blank">Enkari</a></div>
+Ninject is the illegitimate brainchild of <a href="http://kohari.org/" target="_blank">Nate Kohari</a>. Copyright &copy;2007-2010 <a href="http://enkari.com/" target="_blank">Enkari, Ltd</a> and contributors.<br>
+This website is <a href="http://github.com/ninject/ninject.website">open source</a>! Go see how the giant hamster wheel turns.</div>
+</div>
+<a href="http://github.com/ninject/ninject"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+<script src="Content/js/bundle.js?20110510" type="text/javascript"></script>
 <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-501149-3");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-501149-3");
+        pageTracker._trackPageview();
+    } catch (err) { }
+</script><!--[if IE 6]>
+<script type="text/javascript">
+        var IE6UPDATE_OPTIONS = { icons_path: "http://static.ie6update.com/hosted/ie6update/images/" };
+</script>
+<script type="text/javascript" src="http://static.ie6update.com/hosted/ie6update/ie6update.js"></script>
+<![endif]--></body>
 </html>
