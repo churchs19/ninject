@@ -1,7 +1,10 @@
-paginate: 5
-pygments: true
+auto: false
+server: false
+lsi: false
 markdown: rdiscount
-permalink: /:year/:month/:day/:title/
+pygments: true
+permalink: /:year/:month/:day/:title
+paginate: 10
 extensions:
   - title: Ninject.Web.Mvc
     description: Allows integration between Ninject and <a href="http://asp.net/mvc">ASP.NET MVC</a>.(It powers this website! Check out <a href="http://github.com/ninject/ninject.website">the source</a> to see how.)MVC1 + MVC2 support are originally by Nate Kohari.
