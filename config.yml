@@ -2,3 +2,16 @@ paginate: 5
 pygments: true
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
+extensions:
+  -
+    title: Ninject.Web.Mvc
+    description: Allows integration between Ninject and <a href="http://asp.net/mvc">ASP.NET MVC</a>.(It powers this website! Check out <a href="http://github.com/ninject/ninject.website">the source</a> to see how.)MVC1 + MVC2 support are originally by Nate Kohari.
+    email: remo.gloor@gmail.com
+    author: Remo Gloor
+    website: http://github.com/ninject/ninject.web.mvc
+  -
+    title: Ninject.Web
+    description: Allows integration between Ninject and ASP.NET WebForms. Originally by Nate Kohari, ported to Ninject 2.0 by Ian Davis.
+    email: ian@innovatian.com
+    author: Ian Davis
+    website: https://github.com/ninject/ninject.web
